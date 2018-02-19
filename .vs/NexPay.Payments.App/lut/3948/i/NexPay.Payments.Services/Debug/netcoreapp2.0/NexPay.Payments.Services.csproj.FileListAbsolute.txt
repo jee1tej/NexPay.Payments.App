@@ -1,0 +1,9 @@
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.deps.json
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.dll
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.pdb
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.csprojResolveAssemblyReference.cache
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.csproj.CoreCompileInputs.cache
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.AssemblyInfoInputs.cache
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.AssemblyInfo.cs
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.dll
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NexPay.Payments.Services\Debug\netcoreapp2.0\NexPay.Payments.Services.pdb

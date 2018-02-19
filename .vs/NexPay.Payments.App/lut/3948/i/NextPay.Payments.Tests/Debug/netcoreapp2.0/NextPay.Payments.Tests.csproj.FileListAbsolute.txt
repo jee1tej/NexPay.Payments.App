@@ -1,0 +1,13 @@
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NextPay.Payments.Tests\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NextPay.Payments.Tests\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NextPay.Payments.Tests\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.deps.json
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.runtimeconfig.json
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.runtimeconfig.dev.json
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.dll
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\b\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.pdb
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.csproj.CoreCompileInputs.cache
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.AssemblyInfoInputs.cache
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.AssemblyInfo.cs
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.dll
+C:\Users\HOME\source\repos\NexPay.Payments.App\.vs\NexPay.Payments.App\lut\0\i\NextPay.Payments.Tests\Debug\netcoreapp2.0\NextPay.Payments.Tests.pdb

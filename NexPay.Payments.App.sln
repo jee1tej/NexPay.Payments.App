@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexPay.Payments.App", "NexPay.Payments.App\NexPay.Payments.App.csproj", "{97BED2F6-065B-450B-96ED-8EDD9FDBFEBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexPay.Payments.Services", "NexPay.Payments.Services\NexPay.Payments.Services.csproj", "{80434935-93BA-47C2-B7C1-D8F0EC15604A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextPay.Payments.Tests", "NextPay.Payments.Tests\NextPay.Payments.Tests.csproj", "{36149B08-D579-41CD-90E7-AF468210AA7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97BED2F6-065B-450B-96ED-8EDD9FDBFEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BED2F6-065B-450B-96ED-8EDD9FDBFEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BED2F6-065B-450B-96ED-8EDD9FDBFEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BED2F6-065B-450B-96ED-8EDD9FDBFEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80434935-93BA-47C2-B7C1-D8F0EC15604A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80434935-93BA-47C2-B7C1-D8F0EC15604A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80434935-93BA-47C2-B7C1-D8F0EC15604A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80434935-93BA-47C2-B7C1-D8F0EC15604A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36149B08-D579-41CD-90E7-AF468210AA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36149B08-D579-41CD-90E7-AF468210AA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36149B08-D579-41CD-90E7-AF468210AA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36149B08-D579-41CD-90E7-AF468210AA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E770DB5-C2EC-40A1-A15A-39E8A5759FA6}
+	EndGlobalSection
+EndGlobal

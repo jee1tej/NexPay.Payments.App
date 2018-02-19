@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "NextPay.Payments.Tests": {
+      "commandName": "Project"
+    }
+  }
+}

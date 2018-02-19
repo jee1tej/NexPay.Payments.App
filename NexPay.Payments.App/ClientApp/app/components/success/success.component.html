@@ -1,0 +1,14 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading">
+        Success!
+    </div>
+
+    <div class="panel-body">
+        <strong>Your transaction is successfull!</strong>
+        <br />
+        <div [routerLinkActive]="['link-active']">
+            <a [routerLink]="['/home']">
+                <span class='glyphicon glyphicon-credit-card'></span> Initiate another payment
+            </a>
+        </div>
+    </div>

@@ -1,0 +1,164 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <img src="../assets/img/logo-w.png" class="img-responsive" alt="NexPay">
+    </div>
+
+    <div class="panel-body">
+        <form class="form-horizontal"
+              novalidate
+              (ngSubmit)="save()"
+              [formGroup]="transactionForm">
+            <fieldset>
+                <div class="form-group"
+                     [ngClass]="{'has-error': (transactionForm.get('firstName').touched ||
+                                              transactionForm.get('firstName').dirty) &&
+                                              !transactionForm.get('firstName').valid }">
+                    <label class="col-md-2 control-label"
+                           for="firstNameId">First Name</label>
+
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="firstNameId"
+                               type="text"
+                               placeholder="First Name (required)"
+                               formControlName="firstName" />
+                        <span class="help-block" *ngIf="(transactionForm.get('firstName').touched ||
+                                                         transactionForm.get('firstName').dirty) &&
+                                                         transactionForm.get('firstName').errors">
+                            <span *ngIf="transactionForm.get('firstName').errors?.required">
+                                Please enter your first name.
+                            </span>
+                            <span *ngIf="transactionForm.get('firstName').errors?.minlength">
+                                The first name must be longer than 3 characters.
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group"
+                     [ngClass]="{'has-error': (transactionForm.get('lastName').touched || transactionForm.get('lastName').dirty) && !transactionForm.get('lastName').valid }">
+                    <label class="col-md-2 control-label"
+                           for="lastNameId">Last Name</label>
+
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="lastNameId"
+                               type="text"
+                               placeholder="Last Name (required)"
+                               formControlName="lastName" />
+                        <span class="help-block" *ngIf="(transactionForm.get('lastName').touched || transactionForm.get('lastName').dirty) && transactionForm.get('lastName').errors">
+                            <span *ngIf="transactionForm.get('lastName').errors?.required">
+                                Please enter your last name.
+                            </span>
+                            <span *ngIf="transactionForm.controls.lastName.errors?.maxlength">
+                                The last name must be less than 50 characters.
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group"
+                     [ngClass]="{'has-error': (transactionForm.get('accountNumber').touched || transactionForm.get('accountNumber').dirty) && !transactionForm.get('accountNumber').valid }">
+                    <label class="col-md-2 control-label"
+                           for="accountNumberId">Account Number</label>
+
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="accountNumberId"
+                               type="number"
+                               placeholder="Account Number - XXXXXXXX"
+                               formControlName="accountNumber" 
+                               maxlength="8" 
+                               pattern="[0-9]{8}"
+                               min="0"/>
+                        <span class="help-block" *ngIf="(transactionForm.get('accountNumber').touched || transactionForm.get('accountNumber').dirty) && transactionForm.get('accountNumber').errors">
+                            <span *ngIf="transactionForm.get('accountNumber').errors?.required">
+                                Please enter your Account Number.
+                            </span>
+                            <span *ngIf="transactionForm.get('accountNumber').errors?.minLength || transactionForm.get('accountNumber').errors?.maxLength">
+                               Please enter a valid account number.
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group"
+                     [ngClass]="{'has-error': (transactionForm.get('bsb').touched || transactionForm.get('bsb').dirty) &&  !transactionForm.get('bsb').valid }">
+                    <label class="col-md-2 control-label"
+                           for="bsbId">BSB</label>
+
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="bsbId"
+                               type="number"
+                               placeholder="BSB - XXXXXX"
+                               formControlName="bsb" 
+                               maxlength="6" 
+                               pattern="[0-9]{6}"
+                               min="0"/>
+                        <span class="help-block" *ngIf="(transactionForm.get('bsb').touched || transactionForm.get('bsb').dirty) && transactionForm.get('bsb').errors">
+                            <span *ngIf="transactionForm.get('bsb').errors?.required">
+                                Please enter your BSB.
+                            </span>
+                            <span *ngIf="transactionForm.get('bsb').errors?.minLength">
+                                BSB should be minimum 5 digits.
+                            </span>
+                            <span *ngIf="transactionForm.get('bsb').errors?.maxLength">
+                                BSB should be maximum 6 digits.
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group"
+                     [ngClass]="{'has-error': (transactionForm.get('amount').touched || transactionForm.get('amount').dirty) && !transactionForm.get('amount').valid }">
+                    <label class="col-md-2 control-label"
+                           for="amountId">Amount</label>
+
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="amountId"
+                               type="number"
+                               placeholder="amount"
+                               formControlName="amount" 
+                               min="0"/>
+
+                        <span class="help-block" *ngIf="(transactionForm.get('amount').touched || transactionForm.get('amount').dirty) && transactionForm.get('amount').errors">
+                            <span *ngIf="transactionForm.get('amount').errors?.required">
+                                Please enter your amount.
+                            </span>
+                            <span *ngIf="transactionForm.get('amount').errors?.maxLength">
+                                Invalid amount entered.
+                            </span>
+                            <span *ngIf="transactionForm.get('amount').errors?.max || transactionForm.get('amount').errors?.min">
+                                Maximum transaction limit is $20000.
+                            </span>
+                            <span *ngIf="transactionForm.get('amount').errors?.min">
+                                Minimum payment amount is $10.
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4 col-md-offset-2">
+                        <span>
+                            <button class="btn btn-primary"
+                                    type="submit"
+                                    [disabled]="!transactionForm.valid">
+                                Pay
+                            </button>
+                        </span>
+                        <!--<span>
+                            <button class="btn btn-default"
+                                    type="button"
+                                    (click)="populateTestData()">
+                                Test Data
+                            </button>
+                        </span>-->
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
